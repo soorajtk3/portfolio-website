@@ -1,32 +1,43 @@
 
 import { Code, Database, Cloud, GitBranch, Award } from 'lucide-react';
-export const experienceData = [
-
+export const experienceData =  [
   {
     id: 1,
     designation: 'Software Engineer',
     company: 'Revyrie Global',
     location: 'Trivandrum, Kerala',
-    duration: 'April 2024 - Present',
-    responsibilities: [{
-      id: 1,
-      title: 'Implemented real-time document status updates using Firebase, eliminating the need for manual page refreshes and enabling instant synchronization. This improvement reduced latency by 100%, enhancing user experience with immediate, up-to-date information.',
-    }, {
-      id: 2,
-      title: 'Integrated AI APIs to enable document-based chat functionality, providing dynamic responses.'
-    }, {
-      id: 3,
-      title: 'Implemented web push notifications using Firebase to enhance user engagement by sending reminder alerts.',
-
-    }, {
-      id: 4,
-      title: 'Implemented API Encryption on the frontend, to secure data transmission.'
-    }, {
-      id: 5,
-      title: 'Developed an Admin Panel to manage user listings and visualize data through graphical analytics.'
-    }
-
-
+    duration: 'April 2024 - January 2026',
+    responsibilities: [
+      {
+        id: 1,
+        title:
+          'Built a production-grade AI chat platform powered by GPT-4o with real-time streaming responses using Server-Sent Events (SSE), delivering low-latency conversational UX.'
+      },
+      {
+        id: 2,
+        title:
+          'Integrated Stripe Checkout to support subscriptions, renewals, and role-based feature access, ensuring secure payment workflows.'
+      },
+      {
+        id: 3,
+        title:
+          'Developed a full admin panel for a social-wellbeing mobile platform enabling real-time issue triaging via push notifications and centralized moderation tools.'
+      },
+      {
+        id: 4,
+        title:
+          'Built dynamic analytics dashboards using Recharts to visualize CAC, LTV, and subscriber trends, supporting data-driven product decisions.'
+      },
+      {
+        id: 5,
+        title:
+          'Engineered a secure document-management platform with AI-assisted summarization and Q&A, including encrypted client-side API communication.'
+      },
+      {
+        id: 6,
+        title:
+          'Implemented real-time document status synchronization using Firebase, eliminating manual refresh and improving perceived responsiveness.'
+      }
     ]
   },
 
@@ -36,23 +47,35 @@ export const experienceData = [
     company: 'Hamon Technologies',
     location: 'Calicut, Kerala',
     duration: 'January 2022 - February 2024',
-    responsibilities: [{
-      id: 1,
-      title: 'Developed and maintained full-stack web applications using React.js (TypeScript) for front-end and Express.js for back-end.',
-    }, {
-      id: 2,
-      title: 'Created reusable functional components and implemented responsive UI design for various devices, including mobile and high-resolution screens.'
-    }, {
-      id: 3,
-      title: 'Integrated third-party SDKs like React-Hook-Form, Bootstrap, and react-beautiful-dnd to enhance app functionality and user experience.',
-
-    }, {
-      id: 4,
-      title: 'Managed application state with Redux Toolkit and integrated APIs with the front end.'
-    },
+    responsibilities: [
+      {
+        id: 1,
+        title:
+          'Built responsive admin dashboards and reusable UI systems for EV charging platforms optimized for desktop and tablet experiences.'
+      },
+      {
+        id: 2,
+        title:
+          'Designed scalable state-managed components using Redux and API-driven workflows to improve frontend reliability.'
+      },
+      {
+        id: 3,
+        title:
+          'Developed full-stack production features using React, Node.js, and Express across multiple applications.'
+      },
+      {
+        id: 4,
+        title:
+          'Implemented secure video upload functionality for a medical education streaming platform serving global surgical institutions.'
+      },
+      {
+        id: 5,
+        title:
+          'Designed and delivered real-time messaging features including UI, backend APIs, and data handling.'
+      }
     ]
   }
-]
+];
 
 
 export const educationDetails = {
